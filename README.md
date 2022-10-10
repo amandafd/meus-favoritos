@@ -15,13 +15,13 @@
 <!--<a href="" align="center">Link da página do projeto</a>-->
 
 <ul>Conteúdos
-    <li><a href="#visao-geral">Visão Geral</a> 
-        <ul><li><a href="#o-projeto">O Projeto</a></li><ul>
-    </li>  
-    <li><a href="#meu-processo">Meu processo</a>
-        <ul><li><a href="#aprendizados">Aprendizados</a></li><ul>
-    </li>  
-    <li><a href="#autora">Autora</li>
+  <li><a href="#visao-geral">Visão Geral</a> 
+    <ul><li><a href="#o-projeto">O Projeto</a></li></ul>
+  </li>  
+  <li><a href="#meu-processo">Meu processo</a>
+    <ul><li><a href="#aprendizados">Aprendizados</a></li></ul>
+  </li>  
+  <li><a href="#autora">Autora</li>
 </ul>
 
 <h2 id="visao-geral">Visão Geral</h2>

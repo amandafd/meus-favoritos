@@ -42,9 +42,9 @@ a {
     text-transform: uppercase;
 }
 
-/*.logo {
-   
-}*/
+.logo {
+    margin-bottom: 0.5rem;
+}
 
 .nav-menu {
     display: flex;

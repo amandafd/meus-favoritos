@@ -127,3 +127,9 @@ a {
         left: 0;
     }
 }
+
+@media (max-width: 380px) {
+    .nav-bar {
+        padding: 0px 1.15rem;
+    }
+}

@@ -29,7 +29,7 @@
 <h3 id="o-projeto">O Projeto</h3>
 
 <p>Esse site foi desenvolvido por mim, com o intuito de praticar minhas habilidades em desenvolvimento Front-end. Tendo desenvolvido alguns projetos já baseados em desafios propostos por outras pessoas e instituições, decidi dessa vez desenvolver um projeto pessoal. Meu site pessoal conterá um resumo dos meus principais projetos de portfólio, assim como indicações de favoritos(wishlists, materiais de arte, livros, filmes, etc) e também um blog falando sobre tecnologia, arte, reflexões, etc.</p> 
-
+<p>Os objetivos de aprendizado desse projeto serão atualizados na seção "Aprendizados" conforme são trabalhados na execução.</p>
 
 
 <h2 id="meu-processo">Meu processo</h2>

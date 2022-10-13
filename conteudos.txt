@@ -1,5 +1,11 @@
 Esse documento será utilizado apenas durante a execução do projeto para planejamento dos conteúdos a serem inseridos.
 
+___HEADER___
+
+___MAIN___
+___FOOTER___
+Versão + ano. + Redes sociais/github/linkedin
+
 -----INDEX-----
 ---SOBRE---
 Sou natural de São Paulo - Capital, desenvolvedora Front-end, designer e artista. Formada em Moda com habilitação em Gestão de Produtos pelo Centro Universitário FIAM FAAM e possuo projetos desenvolvidos em HTML, CSS, Javascript e utilizando conceitos do design, além de artes com as mais diversas tecnicas. Adoro estudar e interligar conhecimentos de diferentes áreas, colocando a mão na massa.
@@ -10,11 +16,7 @@ Atuei dentro da área de Moda como assistente de estilo e fotógrafa até 2019, 
 
 Sinto muito prazer no processo de aprendizado, tendo sido atraida para a área de tecnologia pelo fascínio com sua dinamicidade e possibilidades. 
 
------FAVORITOS-----
-
-
-
------WISHLIST-----
+-----PORTFOLIO-----
 
 
 
@@ -22,4 +24,8 @@ Sinto muito prazer no processo de aprendizado, tendo sido atraida para a área d
 
 
 
------PORTFOLIO-----
+-----FAVORITOS-----
+
+
+
+-----WISHLIST-----

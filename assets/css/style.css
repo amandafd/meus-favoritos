@@ -77,9 +77,9 @@ a {
     transition: all 0.3s ease-in-out;
 }
 
-@media (max-width: 985px) {
+@media (max-width: 816px) {
     .nav-menu {
-        gap: 2rem;
+        gap: 3rem;
     }
 }
 

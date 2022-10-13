@@ -82,6 +82,13 @@ a {
         gap: 3rem;
     }
 }
+main {
+    background-image: url(../imagens/bg-sobre.jpg);
+}
+
+#foto-amanda {
+    width: 500px;
+}
 
 @media (max-width: 768px) {
     .burger {

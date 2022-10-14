@@ -82,9 +82,10 @@ a {
         gap: 3rem;
     }
 }
-main {
+
+/*main {
     background-image: url(../imagens/bg-sobre.jpg);
-}
+}*/
 
 #foto-amanda {
     width: 500px;

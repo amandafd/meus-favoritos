@@ -77,18 +77,55 @@ a {
     transition: all 0.3s ease-in-out;
 }
 
+main {
+    background-image: url(../imagens/bg-sobre.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+}
+
+#sobre {
+    background-color: #5e548e59;
+    text-align: justify;
+    padding: 3rem;
+    margin: 4rem 10rem;
+    border-radius: 2rem;
+}
+
+#foto-amanda {
+    width: 13.75rem;
+    float: left;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+#texto-sobre {
+    color: var(--lilas);
+    line-height: 1.5rem;
+}
+#texto-sobre a {
+    color: var(--verdinho);
+    /*text-shadow: ;*/
+}
+
+#titulo-sobre {
+    padding: 1.5rem 0;
+    font-size: 2.6rem;
+}
+
+footer {
+    background-color: var(--azul-escuro);
+    min-height: 6.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4.15rem;
+}
+
 @media (max-width: 870px) {
     .nav-menu {
         gap: 3rem;
     }
-}
-
-/*main {
-    background-image: url(../imagens/bg-sobre.jpg);
-}*/
-
-#foto-amanda {
-    width: 500px;
 }
 
 @media (max-width: 768px) {

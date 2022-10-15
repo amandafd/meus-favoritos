@@ -20,6 +20,9 @@ Sinto muito prazer no processo de aprendizado, tendo sido atraida para a área d
 
 -----PORTFOLIO-----
 
+ideia 1:foto do projeto e ao fazer hover, mostrar texto no lugar da imagem com o nome do projeto. Ao clicar no projeto, direciona para a página com detalhe do projeto(repositório github).
+
+ideia 2: quadro com foto em cima e box embaixo com o nome
 -DESENVOLVIMENTO FRONT-end
 
 -UX DESIGN 

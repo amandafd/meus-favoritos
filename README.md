@@ -12,7 +12,7 @@
   <a href=""><img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" align="center" alt="Badge Javascript" /></a>
 </p>
 
-<!--<a href="" align="center">Link da página do projeto</a>-->
+<a href="https://amanda-dionisio.vercel.app/" align="center">Link da página do projeto</a>
 
 <ul>Conteúdos
   <li><a href="#visao-geral">Visão Geral</a> 

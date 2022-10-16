@@ -38,6 +38,7 @@
 <ul>Os aprendizados reforçados e adquiridos durante a execução desse projeto foram:
   <li>Criação e vinculação de diversas páginas web, trabalhando o fluxo de navegação</li>
   <li>Criação de menus de navegação estáticos e com dropdown aliados com responsividade</li>
+  <li>Uso do float para adequar textos ao redor de imagens</li>
   <li>Unir os conhecimentos em desenvolvimento Front-end com conhecimentos prévios em design e Experiência do Usuário(UX)</li>
   <li>Iniciando o uso de conventional commits, para realizar commits padronizados</li>
 </ul> 

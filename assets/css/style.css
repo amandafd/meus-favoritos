@@ -80,7 +80,7 @@ a {
 main {
     background-image: url(../imagens/bg-sobre.jpg);
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
 }
 
@@ -88,7 +88,7 @@ main {
     background-color: #5e548e59;
     text-align: justify;
     padding: 3rem;
-    margin: 4rem 10rem;
+    margin: 4rem 6rem;
     border-radius: 2rem;
 }
 
@@ -126,9 +126,21 @@ footer {
     .nav-menu {
         gap: 3rem;
     }
+
+    #sobre {
+        margin: 4rem 4rem;
+    }
+
+    #foto-amanda {
+        width: 10rem;
+    }
 }
 
 @media (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+
     .burger {
         display: block;
     }
@@ -163,10 +175,60 @@ footer {
     .nav-menu.active {
         left: 0;
     }
+
+    #sobre {
+        padding: 2.5rem;
+        margin: 3.5rem 4rem;
+    }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 534px) {
+    #sobre {
+        margin: 2.5rem 2.5rem;
+    }
+
+    #foto-amanda {
+        width: 8rem;
+    }
+
+    #titulo-sobre {
+        padding: 3.2rem 1.1rem;
+        font-size: 2.4rem;
+    }
+}
+
+@media (max-width: 405px) {
+    html {
+        font-size: 12.5px;
+    }
+
     .nav-bar {
-        padding: 0px 1.15rem;
+        padding: 0px 2.15rem;
+    }
+
+    #sobre {
+        padding: 2rem;
+        margin: 2.5rem 2rem;
+    }
+
+    #titulo-sobre {
+        padding: 3.3rem 0 3.3rem 10rem;
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 360px) {
+    #sobre {
+        display: grid;
+        justify-items: center;
+    }
+    #foto-amanda {
+        float: inherit;
+    }
+
+    #titulo-sobre {
+        padding: 1.5rem 0;
+        text-align: center;
+        letter-spacing: 0.3rem;
     }
 }

@@ -72,7 +72,7 @@ a {
 }
 
 main {
-    background-image: url(../imagens/bg-sobre.jpg);
+    background-image: url(../imagens/bg.jpg);
     background-size: cover;
     min-height: 100vh;
     display: flex;

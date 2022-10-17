@@ -1,10 +1,8 @@
-<h1 align="center">Meus-favoritos</h1>
+<h1 align="center">Site Pessoal - Amanda Dionisio</h1>
 
 <!--<div align-items="center">
   <img src="" align="right" alt="Screenshot do projeto">
 </div></br>-->
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7tT915tojrc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <p align="center">
   <a href=""><img src="https://img.shields.io/badge/%C3%BAltima%20atualiza%C3%A7%C3%A3o-outubro%202022-blue" align="center" alt="Badge última atualização em outubro de 2022" /></a> 
@@ -15,6 +13,7 @@
 </p>
 
 <a href="https://amanda-dionisio.vercel.app/" align="center">Link da página do projeto</a>
+<a href="https://www.youtube.com/watch?v=7tT915tojrc" align="center">Link do vídeo apresentando o projeto</a>
 
 <ul>Conteúdos
   <li><a href="#visao-geral">Visão Geral</a> 

@@ -86,11 +86,24 @@ main {
     display: flex;
 }
 
+#wishlist {
+    background-color: #5e548e59;
+    text-align: justify;
+    padding: 3rem;
+    margin: 4rem 6rem;
+    border-radius: 2rem;
+}
+
 @media (max-width: 870px) {
     .nav-menu {
         gap: 3rem;
     }
+
+    #wishlist {
+        margin: 4rem 4rem;
+    }
 }
+
 @media (max-width: 768px) {
     html {
         font-size: 14px;
@@ -129,11 +142,22 @@ main {
     
     .nav-menu.active {
         left: 0;
+        min-height: 12.5rem;
+    }
+
+    #wishlist {
+        padding: 2.5rem;
+        margin: 3.5rem 4rem;
+    }
+}
+
+@media (max-width: 534px) {
+    #wishlist {
+        margin: 2.5rem 2.5rem;
     }
 }
 
 @media (max-width: 405px) {
-
     html {
         font-size: 12.5px;
     }
@@ -141,7 +165,18 @@ main {
     .nav-bar {
         padding: 0px 2.15rem;
     }
+
+    #wishlist {
+        padding: 2rem;
+        margin: 2.5rem 2rem;
+    }
 }
 
-/*@media (max-width: 360px) {
-}*/
+@media (max-width: 360px) {
+    #wishlist {
+        display: grid;
+        justify-items: center;
+    }
+}
+
+

@@ -216,6 +216,7 @@ footer {
         display: grid;
         justify-items: center;
     }
+    
     #foto-amanda {
         float: inherit;
     }

@@ -86,11 +86,24 @@ main {
     display: flex;
 }
 
+#portfolio {
+    background-color: #5e548e59;
+    text-align: justify;
+    padding: 3rem;
+    margin: 4rem 6rem;
+    border-radius: 2rem;
+}
+
 @media (max-width: 870px) {
     .nav-menu {
         gap: 3rem;
     }
+
+    #portfolio {
+        margin: 4rem 4rem;
+    }
 }
+
 @media (max-width: 768px) {
     html {
         font-size: 14px;
@@ -130,10 +143,20 @@ main {
     .nav-menu.active {
         left: 0;
     }
+
+    #portfolio {
+        padding: 2.5rem;
+        margin: 3.5rem 4rem;
+    }
+}
+
+@media (max-width: 534px) {
+    #portfolio {
+        margin: 2.5rem 2.5rem;
+    }
 }
 
 @media (max-width: 405px) {
-
     html {
         font-size: 12.5px;
     }
@@ -141,7 +164,18 @@ main {
     .nav-bar {
         padding: 0px 2.15rem;
     }
+
+    #portfolio {
+        padding: 2rem;
+        margin: 2.5rem 2rem;
+    }
 }
 
-/*@media (max-width: 360px) {
-}*/
+@media (max-width: 360px) {
+    #portfolio {
+        display: grid;
+        justify-items: center;
+    }
+}
+
+

@@ -94,6 +94,20 @@ main {
     border-radius: 2rem;
 }
 
+#descricao-p {
+    color: var(--lilas);
+    line-height: 1.5rem;
+}
+
+footer {
+    background-color: var(--azul-escuro);
+    min-height: 6.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4.15rem;
+}
+
 @media (max-width: 870px) {
     .nav-menu {
         gap: 3rem;

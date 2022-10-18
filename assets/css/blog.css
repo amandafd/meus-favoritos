@@ -26,6 +26,10 @@ a {
     text-decoration: none;
 }
 
+h1 {
+    padding-bottom: 1.5rem;
+}
+
 .nav-bar {
     background-color: var(--azul-escuro);
     min-height: 6.25rem;
@@ -107,6 +111,7 @@ footer {
     justify-content: space-between;
     padding: 0 4.15rem;
 }
+
 
 @media (max-width: 870px) {
     .nav-menu {

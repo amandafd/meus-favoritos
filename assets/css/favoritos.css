@@ -26,6 +26,10 @@ a {
     text-decoration: none;
 }
 
+h1 {
+    padding-bottom: 1.5rem;
+}
+
 .nav-bar {
     background-color: var(--azul-escuro);
     min-height: 6.25rem;

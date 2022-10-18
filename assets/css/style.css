@@ -99,8 +99,7 @@ main {
 }
 #texto-sobre a {
     color: var(--verdinho);
-    /*text-shadow: ;*/
-}
+} 
 
 #titulo-sobre {
     padding: 1.5rem 0;

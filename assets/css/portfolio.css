@@ -99,6 +99,15 @@ main {
     line-height: 1.5rem;
 }
 
+.nome-projeto {
+    color: var(--lilas)
+}
+
+.link-projeto {
+    color: var(--verdinho);
+    font-size: 0.9rem;
+}
+
 footer {
     background-color: var(--azul-escuro);
     min-height: 6.25rem;

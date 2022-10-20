@@ -40,7 +40,7 @@ a {
     margin-bottom: 0.5rem;
 }
 
-.nav-menu {
+.navBar__menu {
     display: flex;
     align-items: center;
     gap: 4rem;
@@ -116,7 +116,7 @@ footer {
 }
 
 @media (max-width: 870px) {
-    .nav-menu {
+    .navBar__menu {
         gap: 3rem;
     }
 
@@ -148,7 +148,7 @@ footer {
         transform: translateY(-0.5rem) rotate(-45deg);
     }
 
-    .nav-menu {
+    .navBar__menu {
         background-color: var(--azul-escuro);
         flex-direction: column;
         position: fixed;
@@ -165,7 +165,7 @@ footer {
         margin: 1rem 0;
     }
     
-    .nav-menu.active {
+    .navBar__menu.active {
         left: 0;
     }
 

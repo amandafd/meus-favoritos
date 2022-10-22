@@ -1,4 +1,4 @@
-const burguer = document.querySelector(".burger");
+const burguer = document.querySelector(".burgerIcon");
 const navMenu = document.querySelector(".navBar__menu");
 
 burguer.addEventListener("click", () => {

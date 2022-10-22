@@ -60,7 +60,7 @@ h1 {
     text-shadow: 0 0 1rem var(--verdinho-claro), 0 0 1rem var(--verdinho-claro), 0 0 1rem var(--verdinho-claro);
 }
 
-.burger {
+.burgerIcon {
     display: none;
     cursor: pointer;
 }
@@ -127,17 +127,17 @@ footer {
         font-size: 14px;
     }
 
-    .burger {
+    .burgerIcon {
         display: block;
     }
 
-    .burger.active .bar:nth-child(2) {
+    .burgerIcon.active .bar:nth-child(2) {
         opacity: 0;
     }
-    .burger.active .bar:nth-child(1) {
+    .burgerIcon.active .bar:nth-child(1) {
         transform: translateY(0.5rem) rotate(45deg);
     }
-    .burger.active .bar:nth-child(3) {
+    .burgerIcon.active .bar:nth-child(3) {
         transform: translateY(-0.5rem) rotate(-45deg);
     }
 

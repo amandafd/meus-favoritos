@@ -46,11 +46,11 @@ a {
     gap: 4rem;
 }
 
-.nav-link {
+.navBar__link {
     transition: 0.5s ease;
 }
 
-.nav-link:hover {
+.navBar__link:hover {
     color: var(--verdinho);
     font-size: 1.2rem;
     text-shadow: 0 0 1rem var(--verdinho-claro), 0 0 1rem var(--verdinho-claro), 0 0 1rem var(--verdinho-claro);
@@ -161,7 +161,7 @@ footer {
         transition: 0.3s;
     }
 
-    .nav-item {
+    .navBar__item {
         margin: 1rem 0;
     }
     

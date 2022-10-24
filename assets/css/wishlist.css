@@ -98,7 +98,7 @@ main {
     border-radius: 2rem;
 }
 
-#descricao-w {
+.wishlist__descricao {
     color: var(--lilas);
     line-height: 1.5rem;
 }

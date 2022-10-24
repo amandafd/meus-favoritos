@@ -90,7 +90,7 @@ main {
     display: flex;
 }
 
-#wishlist {
+.wishlist {
     background-color: #5e548e59;
     text-align: justify;
     padding: 3rem;
@@ -117,7 +117,7 @@ footer {
         gap: 3rem;
     }
 
-    #wishlist {
+    .wishlist {
         margin: 4rem 4rem;
     }
 }
@@ -163,14 +163,14 @@ footer {
         min-height: 12.5rem;
     }
 
-    #wishlist {
+    .wishlist {
         padding: 2.5rem;
         margin: 3.5rem 4rem;
     }
 }
 
 @media (max-width: 534px) {
-    #wishlist {
+    .wishlist {
         margin: 2.5rem 2.5rem;
     }
 }
@@ -184,14 +184,14 @@ footer {
         padding: 0px 2.15rem;
     }
 
-    #wishlist {
+    .wishlist {
         padding: 2rem;
         margin: 2.5rem 2rem;
     }
 }
 
 @media (max-width: 360px) {
-    #wishlist {
+    .wishlist {
         display: grid;
         justify-items: center;
     }

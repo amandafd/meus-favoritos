@@ -61,7 +61,7 @@ a {
     cursor: pointer;
 }
 
-.bar {
+.burgerIcon__bar {
     background-color: var(--lilas);
     display: block;
     width: 1.7rem;
@@ -78,7 +78,7 @@ main {
     display: flex;
 }
 
-#sobre {
+.sobre {
     background-color: #5e548e59;
     text-align: justify;
     padding: 3rem;
@@ -86,22 +86,22 @@ main {
     border-radius: 2rem;
 }
 
-#foto-amanda {
+.sobre__foto {
     width: 13.75rem;
     float: left;
     border-radius: 50%;
     margin-right: 1rem;
 }
 
-#texto-sobre {
+.sobre__texto {
     color: var(--lilas);
     line-height: 1.5rem;
 }
-#texto-sobre a {
+.sobre__texto a {
     color: var(--verdinho);
 } 
 
-#titulo-sobre {
+.sobre__texto--titulo {
     padding: 1.5rem 0;
     font-size: 2.6rem;
 }
@@ -120,11 +120,11 @@ footer {
         gap: 3rem;
     }
 
-    #sobre {
+    .sobre {
         margin: 4rem 4rem;
     }
 
-    #foto-amanda {
+    .sobre__foto {
         width: 10rem;
     }
 }
@@ -138,13 +138,13 @@ footer {
         display: block;
     }
 
-    .burgerIcon.active .bar:nth-child(2) {
+    .burgerIcon.active .burgerIcon__bar:nth-child(2) {
         opacity: 0;
     }
-    .burgerIcon.active .bar:nth-child(1) {
+    .burgerIcon.active .burgerIcon__bar:nth-child(1) {
         transform: translateY(0.5rem) rotate(45deg);
     }
-    .burgerIcon.active .bar:nth-child(3) {
+    .burgerIcon.active .burgerIcon__bar:nth-child(3) {
         transform: translateY(-0.5rem) rotate(-45deg);
     }
 
@@ -169,22 +169,22 @@ footer {
         left: 0;
     }
 
-    #sobre {
+    .sobre {
         padding: 2.5rem;
         margin: 3.5rem 4rem;
     }
 }
 
 @media (max-width: 534px) {
-    #sobre {
+    .sobre {
         margin: 2.5rem 2.5rem;
     }
 
-    #foto-amanda {
+    .sobre__foto {
         width: 8rem;
     }
 
-    #titulo-sobre {
+    .sobre__texto--titulo {
         padding: 3.2rem 1.1rem;
         font-size: 2.4rem;
     }
@@ -199,28 +199,28 @@ footer {
         padding: 0px 2.15rem;
     }
 
-    #sobre {
+    .sobre {
         padding: 2rem;
         margin: 2.5rem 2rem;
     }
 
-    #titulo-sobre {
+    .sobre__texto--titulo {
         padding: 3.3rem 0 3.3rem 10rem;
         font-size: 2rem;
     }
 }
 
 @media (max-width: 360px) {
-    #sobre {
+    .sobre {
         display: grid;
         justify-items: center;
     }
     
-    #foto-amanda {
+    .sobre__foto {
         float: inherit;
     }
 
-    #titulo-sobre {
+    .sobre__texto--titulo {
         padding: 1.5rem 0;
         text-align: center;
         letter-spacing: 0.3rem;

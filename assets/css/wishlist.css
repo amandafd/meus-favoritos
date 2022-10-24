@@ -65,7 +65,7 @@ h1 {
     cursor: pointer;
 }
 
-.bar {
+.burgerIcon__bar {
     background-color: var(--lilas);
     display: block;
     width: 1.7rem;
@@ -131,13 +131,13 @@ footer {
         display: block;
     }
 
-    .burgerIcon.active .bar:nth-child(2) {
+    .burgerIcon.active .burgerIcon__bar:nth-child(2) {
         opacity: 0;
     }
-    .burgerIcon.active .bar:nth-child(1) {
+    .burgerIcon.active .burgerIcon__bar:nth-child(1) {
         transform: translateY(0.5rem) rotate(45deg);
     }
-    .burgerIcon.active .bar:nth-child(3) {
+    .burgerIcon.active .burgerIcon__bar:nth-child(3) {
         transform: translateY(-0.5rem) rotate(-45deg);
     }
 

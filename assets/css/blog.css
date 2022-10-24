@@ -75,7 +75,7 @@ h1 {
     transition: all 0.3s ease-in-out;
 }
 
-#navBar__item--blog {
+.navBar__item--blog {
     color: var(--verdinho);
     text-decoration: none;
     font-size: 1.2rem;

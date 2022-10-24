@@ -90,7 +90,7 @@ main {
     display: flex;
 }
 
-#favoritos {
+.favoritos {
     background-color: #5e548e59;
     text-align: justify;
     padding: 3rem;
@@ -98,7 +98,7 @@ main {
     border-radius: 2rem;
 }
 
-#descricao-f {
+.favoritos__descricao {
     color: var(--lilas);
     line-height: 1.5rem;
 }
@@ -117,7 +117,7 @@ footer {
         gap: 3rem;
     }
 
-    #favoritos {
+    .favoritos {
         margin: 4rem 4rem;
     }
 }
@@ -162,14 +162,14 @@ footer {
         left: 0;
     }
 
-    #favoritos {
+    .favoritos {
         padding: 2.5rem;
         margin: 3.5rem 4rem;
     }
 }
 
 @media (max-width: 534px) {
-    #favoritos {
+    .favoritos {
         margin: 2.5rem 2.5rem;
     }
 }
@@ -183,14 +183,14 @@ footer {
         padding: 0px 2.15rem;
     }
 
-    #favoritos {
+    .favoritos {
         padding: 2rem;
         margin: 2.5rem 2rem;
     }
 }
 
 @media (max-width: 360px) {
-    #favoritos {
+    .favoritos {
         display: grid;
         justify-items: center;
     }

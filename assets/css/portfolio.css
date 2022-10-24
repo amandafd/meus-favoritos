@@ -90,7 +90,7 @@ main {
     display: flex;
 }
 
-#portfolio {
+.portfolio {
     background-color: #5e548e59;
     text-align: justify;
     padding: 3rem;
@@ -98,16 +98,16 @@ main {
     border-radius: 2rem;
 }
 
-#descricao-p {
+.portfolio__descricao {
     color: var(--lilas);
     line-height: 1.5rem;
 }
 
-.nome-projeto {
+.portfolio__projetosBox--nome {
     color: var(--lilas)
 }
 
-.link-projeto {
+.portfolio__projetosBox--link {
     color: var(--verdinho);
     font-size: 0.9rem;
 }
@@ -126,7 +126,7 @@ footer {
         gap: 3rem;
     }
 
-    #portfolio {
+    .portfolio {
         margin: 4rem 4rem;
     }
 }
@@ -171,14 +171,14 @@ footer {
         left: 0;
     }
 
-    #portfolio {
+    .portfolio {
         padding: 2.5rem;
         margin: 3.5rem 4rem;
     }
 }
 
 @media (max-width: 534px) {
-    #portfolio {
+    .portfolio {
         margin: 2.5rem 2.5rem;
     }
 }
@@ -192,14 +192,14 @@ footer {
         padding: 0px 2.15rem;
     }
 
-    #portfolio {
+    .portfolio {
         padding: 2rem;
         margin: 2.5rem 2rem;
     }
 }
 
 @media (max-width: 360px) {
-    #portfolio {
+    .portfolio {
         display: grid;
         justify-items: center;
     }

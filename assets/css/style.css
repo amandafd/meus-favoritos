@@ -78,7 +78,7 @@ main {
     display: flex;
 }
 
-.sobre {
+.about {
     background-color: #5e548e59;
     text-align: justify;
     padding: 3rem;
@@ -86,22 +86,22 @@ main {
     border-radius: 2rem;
 }
 
-.sobre__foto {
+.about__photo {
     width: 13.75rem;
     float: left;
     border-radius: 50%;
     margin-right: 1rem;
 }
 
-.sobre__texto {
+.about__text {
     color: var(--lilas);
     line-height: 1.5rem;
 }
-.sobre__texto a {
+.about__text a {
     color: var(--verdinho);
 } 
 
-.sobre__texto--titulo {
+.about__text--title {
     padding: 1.5rem 0;
     font-size: 2.6rem;
 }
@@ -120,11 +120,11 @@ footer {
         gap: 3rem;
     }
 
-    .sobre {
+    .about {
         margin: 4rem 4rem;
     }
 
-    .sobre__foto {
+    .about__photo {
         width: 10rem;
     }
 }
@@ -169,22 +169,22 @@ footer {
         left: 0;
     }
 
-    .sobre {
+    .about {
         padding: 2.5rem;
         margin: 3.5rem 4rem;
     }
 }
 
 @media (max-width: 534px) {
-    .sobre {
+    .about {
         margin: 2.5rem 2.5rem;
     }
 
-    .sobre__foto {
+    .about__photo {
         width: 8rem;
     }
 
-    .sobre__texto--titulo {
+    .about__text--title {
         padding: 3.2rem 1.1rem;
         font-size: 2.4rem;
     }
@@ -199,28 +199,28 @@ footer {
         padding: 0px 2.15rem;
     }
 
-    .sobre {
+    .about {
         padding: 2rem;
         margin: 2.5rem 2rem;
     }
 
-    .sobre__texto--titulo {
+    .about__text--title {
         padding: 3.3rem 0 3.3rem 10rem;
         font-size: 2rem;
     }
 }
 
 @media (max-width: 360px) {
-    .sobre {
+    .about {
         display: grid;
         justify-items: center;
     }
     
-    .sobre__foto {
+    .about__photo {
         float: inherit;
     }
 
-    .sobre__texto--titulo {
+    .about__text--title {
         padding: 1.5rem 0;
         text-align: center;
         letter-spacing: 0.3rem;

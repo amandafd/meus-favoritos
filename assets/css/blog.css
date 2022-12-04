@@ -98,7 +98,7 @@ main {
     border-radius: 2rem;
 }
 
-.blog__descricao {
+.blog__description {
     color: var(--lilas);
     line-height: 1.5rem;
 }

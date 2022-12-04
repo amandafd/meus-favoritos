@@ -98,16 +98,16 @@ main {
     border-radius: 2rem;
 }
 
-.portfolio__descricao {
+.portfolio__description {
     color: var(--lilas);
     line-height: 1.5rem;
 }
 
-.portfolio__projetosBox--nome {
+.portfolio__projectsBox--name {
     color: var(--lilas)
 }
 
-.portfolio__projetosBox--link {
+.portfolio__projctsBox--link {
     color: var(--verdinho);
     font-size: 0.9rem;
 }

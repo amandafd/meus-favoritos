@@ -1,10 +1,10 @@
 :root {
-    --azul-escuro: #231942;
-    --azul-violet: #5E548E;
-    --lilas: #BE95C4;
-    --rosa-bebe: #E0B1CB;
-    --verdinho: #90B6C1;
-    --verdinho-claro: #90b6c179;
+    --dark-blue: #231942;
+    --blue-violet: #5E548E;
+    --lilac: #BE95C4;
+    --light-pink: #E0B1CB;
+    --green: #90B6C1;
+    --light-green: #90b6c179;
 }
 
 * {
@@ -22,12 +22,12 @@ li {
 }
 
 a {
-    color: var(--lilas);
+    color: var(--lilac);
     text-decoration: none;
 }
 
 .navBar {
-    background-color: var(--azul-escuro);
+    background-color: var(--dark-blue);
     min-height: 6.25rem;
     display: flex;
     align-items: center;
@@ -51,9 +51,9 @@ a {
 }
 
 .navBar__link:hover {
-    color: var(--verdinho);
+    color: var(--green);
     font-size: 1.2rem;
-    text-shadow: 0 0 1rem var(--verdinho-claro), 0 0 1rem var(--verdinho-claro), 0 0 1rem var(--verdinho-claro);
+    text-shadow: 0 0 1rem var(--light-green), 0 0 1rem var(--light-green), 0 0 1rem var(--light-green);
 }
 
 .burgerIcon {
@@ -62,7 +62,7 @@ a {
 }
 
 .burgerIcon__bar {
-    background-color: var(--lilas);
+    background-color: var(--lilac);
     display: block;
     width: 1.7rem;
     height: 0.2rem;
@@ -72,7 +72,7 @@ a {
 }
 
 main {
-    background-image: url(../imagens/bg.jpg);
+    background-image: url(../images/bg.jpg);
     background-size: cover;
     min-height: 100vh;
     display: flex;
@@ -94,11 +94,11 @@ main {
 }
 
 .about__text {
-    color: var(--lilas);
+    color: var(--lilac);
     line-height: 1.5rem;
 }
 .about__text a {
-    color: var(--verdinho);
+    color: var(--green);
 } 
 
 .about__text--title {
@@ -107,7 +107,7 @@ main {
 }
 
 footer {
-    background-color: var(--azul-escuro);
+    background-color: var(--dark-blue);
     min-height: 6.25rem;
     display: flex;
     align-items: center;
@@ -149,7 +149,7 @@ footer {
     }
 
     .navBar__menu {
-        background-color: var(--azul-escuro);
+        background-color: var(--dark-blue);
         flex-direction: column;
         position: fixed;
         width: 100%;

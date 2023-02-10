@@ -75,7 +75,7 @@ h1 {
     transition: all 0.3s ease-in-out;
 }
 
-.navBar__item--favorites {
+.navBar__item--favourites {
     color: var(--verdinho);
     text-decoration: none;
     font-size: 1.2rem;
@@ -90,7 +90,7 @@ main {
     display: flex;
 }
 
-.favorites {
+.favourites {
     background-color: #5e548e59;
     text-align: justify;
     padding: 3rem;
@@ -98,7 +98,7 @@ main {
     border-radius: 2rem;
 }
 
-.favorites__description {
+.favourites__description {
     color: var(--lilas);
     line-height: 1.5rem;
 }
@@ -117,7 +117,7 @@ footer {
         gap: 3rem;
     }
 
-    .favorites {
+    .favourites {
         margin: 4rem 4rem;
     }
 }
@@ -162,14 +162,14 @@ footer {
         left: 0;
     }
 
-    .favorites {
+    .favourites {
         padding: 2.5rem;
         margin: 3.5rem 4rem;
     }
 }
 
 @media (max-width: 534px) {
-    .favorites {
+    .favourites {
         margin: 2.5rem 2.5rem;
     }
 }
@@ -183,14 +183,14 @@ footer {
         padding: 0px 2.15rem;
     }
 
-    .favorites {
+    .favourites {
         padding: 2rem;
         margin: 2.5rem 2rem;
     }
 }
 
 @media (max-width: 360px) {
-    .favorites {
+    .favourites {
         display: grid;
         justify-items: center;
     }

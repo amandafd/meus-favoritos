@@ -1,10 +1,10 @@
 :root {
-    --azul-escuro: #231942;
-    --azul-violet: #5E548E;
-    --lilas: #BE95C4;
-    --rosa-bebe: #E0B1CB;
-    --verdinho: #90B6C1;
-    --verdinho-claro: #90b6c179;
+    --dark-blue: #231942;
+    --blue-violet: #5E548E;
+    --lilac: #BE95C4;
+    --light-pink: #E0B1CB;
+    --green: #90B6C1;
+    --light-green: #90b6c179;
 }
 
 * {
@@ -22,7 +22,7 @@ li {
 }
 
 a {
-    color: var(--lilas);
+    color: var(--lilac);
     text-decoration: none;
 }
 
@@ -31,7 +31,7 @@ h1 {
 }
 
 .navBar {
-    background-color: var(--azul-escuro);
+    background-color: var(--dark-blue);
     min-height: 6.25rem;
     display: flex;
     align-items: center;
@@ -55,9 +55,9 @@ h1 {
 }
 
 .navBar__link:hover {
-    color: var(--verdinho);
+    color: var(--green);
     font-size: 1.2rem;
-    text-shadow: 0 0 1rem var(--verdinho-claro), 0 0 1rem var(--verdinho-claro), 0 0 1rem var(--verdinho-claro);
+    text-shadow: 0 0 1rem var(--light-green), 0 0 1rem var(--light-green), 0 0 1rem var(--light-green);
 }
 
 .burgerIcon {
@@ -66,7 +66,7 @@ h1 {
 }
 
 .burgerIcon__bar {
-    background-color: var(--lilas);
+    background-color: var(--lilac);
     display: block;
     width: 1.7rem;
     height: 0.2rem;
@@ -76,15 +76,15 @@ h1 {
 }
 
 .navBar__item--wishlist {
-    color: var(--verdinho);
+    color: var(--green);
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 700;
-    text-shadow: 0 0 1rem var(--verdinho-claro), 0 0 1rem var(--verdinho-claro), 0 0 1rem var(--verdinho-claro);
+    text-shadow: 0 0 1rem var(--light-green), 0 0 1rem var(--light-green), 0 0 1rem var(--light-green);
 }
 
 main {
-    background-image: url(../imagens/bg.jpg);
+    background-image: url(../images/bg.jpg);
     background-size: cover;
     min-height: 100vh;
     display: flex;
@@ -99,12 +99,12 @@ main {
 }
 
 .wishlist__description {
-    color: var(--lilas);
+    color: var(--lilac);
     line-height: 1.5rem;
 }
 
 footer {
-    background-color: var(--azul-escuro);
+    background-color: var(--dark-blue);
     min-height: 6.25rem;
     display: flex;
     align-items: center;
@@ -142,7 +142,7 @@ footer {
     }
 
     .navBar__menu {
-        background-color: var(--azul-escuro);
+        background-color: var(--dark-blue);
         flex-direction: column;
         position: fixed;
         width: 100%;

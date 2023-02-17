@@ -1,5 +1,7 @@
 Esse documento será utilizado apenas durante a execução do projeto para planejamento dos conteúdos a serem inseridos.
 
+Revisar tradução dos outros arquivos e traduzir esse, mesmo que seja temporário
+
 -----PORTFOLIO-----
 
 ideia 1:foto do projeto e ao fazer hover, mostrar texto no lugar da imagem com o nome do projeto. Ao clicar no projeto, direciona para a página com detalhe do projeto(repositório github).
@@ -17,7 +19,7 @@ ideia 2: quadro com foto em cima e box embaixo com o nome
 
 !REUNIR TEXTOS SOLTOS PARA AS PRIMEIRAS PUBLICAÇÕES!
 
------FAVORITOS-----
+-----FAVOURITES-----
 
 !ORGANIZAR LISTA DE FAVORITOS!
 Categorias:
